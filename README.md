@@ -70,9 +70,6 @@ self.__config = Configuration(
 - **`end`**: Ending position of the movement.
 - **`entries`**: List of `MouseEntry` objects within the movement.
 
-### TrainingDataCollection
-- A collection of `MouseMovement` objects.
-
 ### Serialized Output
 The serialized data is stored in JSON format, ready to be fed into Brain.js for training.
 
